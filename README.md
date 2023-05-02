@@ -1,2 +1,2 @@
 # korkdex
-Pokédex made of kork
+Pokédex made of kork!
