@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "korkdex"
+version = "0.1.0"
+description = ""
+authors = ["PhilGru <philipp1805@gmx.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.0.1"
+tqdm = "^4.65.0"
+requests = "^2.29.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+isort = "^5.12.0"
+flake8 = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
